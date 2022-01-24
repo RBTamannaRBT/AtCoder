@@ -3,8 +3,9 @@ using namespace std;
 
 int main()
 {
-     int a,b,c;
-     cin>>a>>b>>c;
-     if(c-b==b-a || c-a==a-b || a-c==c-b ) cout<<"Yes";
-     else cout<<"No";
+     double n;
+     cin>>n;
+     n/=100;
+     if(n>int(n)) cout<<int(n)+1;
+     else cout<<int(n);
 }
